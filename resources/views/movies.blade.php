@@ -9,7 +9,7 @@
 <body>
 <h1>Lista di Film</h1>
     @foreach ($movies as $movie)
-        <div>
+        <div class="card">
             <h1>Titolo: {{ $movie->title }}</h1>
             <h2>Titolo originale: {{ $movie->original_title }}</h2>
             <h3>Nazionalità: {{ $movie->nationality }}</h3>
